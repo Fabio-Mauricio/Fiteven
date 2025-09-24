@@ -10,6 +10,9 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-fitness: #1bcfa5;
+  --color-fitness-600: #1bcfa5;
+  --color-black: #000814;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +23,5 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000814;
 }

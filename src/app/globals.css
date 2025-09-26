@@ -25,3 +25,28 @@
 body {
   background-color: #000814;
 }
+
+body.light {
+  background-color: #fff;
+  color: #000814 !important ;
+}
+
+body.dark {
+  background-color: #000814;
+  color: #faf4f4;
+}
+
+.navbar {
+  padding: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light .navbar {
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+body.dark .navbar {
+  background-color: #222;
+  color: #fff;
+}

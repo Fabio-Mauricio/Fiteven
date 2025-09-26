@@ -1,6 +1,6 @@
 export const List = ({}) => {
     return (
-        <ul className="list rounded-box shadow-md text-slate-100 flex flex-col gap-5 uppercase font-bold">
+        <ul className="list rounded-box flex flex-col gap-5 uppercase font-bold">
   
   <li className="list-row flex items-center">
     <div className="text-7xl font-thin opacity-30 tabular-nums">01</div>
